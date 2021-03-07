@@ -1,0 +1,178 @@
+.center-item {
+  display: flex;
+  justify-content: center;
+}
+
+.array-size {
+  width: 100%;
+  height: 38px;
+  margin: 1.5rem auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #333 !important;
+}
+
+.array-size > label {
+  margin: 0;
+  margin-right: 10px;
+}
+
+.array-size > input {
+  margin-right: 20px;
+  height: 100%;
+  color: #333 !important;
+  border: 1px solid #333;
+  border-radius: 4px;
+  padding: 0 15px;
+  box-sizing: border-box;
+  width: 150px;
+}
+.array-size > input:hover,
+.array-size > input:focus {
+  border-color: #007bff !important;
+}
+.array-size > input:focus {
+  outline: none;
+}
+
+.array-size > button {
+  height: 100%;
+}
+
+.array-size .btn-warning.focus,
+.btn-warning:focus {
+  box-shadow: none !important;
+}
+
+.card {
+  height: 10rem;
+}
+.card-title {
+  text-align: left;
+  margin: 1em;
+}
+/* Changes color around algorithm buttons when clicked */
+.click-border {
+  background-color: #b2d3ebd7;
+  border-radius: 5%;
+  box-shadow: 0.5px 0.5px 0.25px rgb(141, 151, 158);
+}
+/* Graph is the container that holds the bar graph */
+#graph {
+  height: 68%;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  font-size: large;
+}
+
+main {
+  height: 85vh;
+}
+
+nav .navbar .bg-light border {
+  background-color: #e3f2fd;
+}
+
+.navbar {
+  color: #333;
+  box-shadow: 0px 1px 20px 0px rgb(0 0 0 / 20%);
+  border: 0 !important;
+}
+
+a:not([href]):not([tabindex]) {
+  color: #333;
+}
+
+nav .nav-link {
+  color: blue;
+}
+
+.nav-link {
+  color: blue;
+}
+
+/* Responsive navbar for phone screens */
+/* When the screen is smaller than 800px */
+@media (max-width: 800px) {
+  .nav-item {
+    display: flex;
+    justify-content: center;
+    margin-bottom: auto;
+  }
+  /* Hide infobar on phone screens and center buttons */
+  .card {
+    display: none;
+  }
+  .infoContainer {
+    display: none;
+  }
+  /* Hide slider on phones, since it will take up too much space and complicate the UI */
+  .slidecontainer {
+    display: none;
+  }
+}
+@media (max-width: 950px) {
+  .card {
+    height: auto;
+  }
+  .startbuttons {
+    display: none;
+  }
+  .numdiv,
+  .numdivshort {
+    display: none;
+  }
+}
+
+/* When the screen is bigger than 950px */
+@media (min-width: 950px) {
+  .mobilebuttons {
+    display: none;
+  }
+}
+
+.numdiv {
+  text-align: center;
+  color: white;
+  margin-top: 10px;
+  font-size: small;
+}
+
+.numdiv.demo {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  font-size: 50px;
+}
+
+.numdivshort {
+  text-align: center;
+  color: #333;
+  margin-top: -20px;
+  font-size: small;
+}
+
+.speed {
+  width: 10%;
+}
+
+.vertbar {
+  width: 10%;
+  height: 100%;
+  background-color: #333;
+  margin-right: 3px;
+}
+
+.time-period {
+  text-align: center;
+}
+
+.time-period > span > span {
+  padding: 10px;
+  border-radius: 5px;
+}
